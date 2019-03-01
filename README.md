@@ -6,19 +6,19 @@ Installation
 -------
 To add SDB profile to your system, create a *.cmd or *.bat file under whatever name you want.
 Edit it and type in:
->sdbinst.exe -q "**path**"
+>%WINDIR%\System32\sdbinst.exe -q "**path**"
 
 where **path** is a path to an SDB file you want to install (can be both absolute and relative). E.g.:
->sdbinst.exe -q "fix.sdb"
+>%WINDIR%\System32\sdbinst.exe -q "fix.sdb"
 
 Save it. Right click on the file and start is as administrator.
 
 Uninstallation
 -------
 Uninstalling SDB profiles is done identical to installing them. You create a CMD file, you edit it, except you type in:
->sdbinst.exe -u -q "**path**"
+>%WINDIR%\System32\sdbinst.exe -u -q "**path**"
 
 Same rules apply (either relative path or absolute).
->sdbinst.exe -u -q "fix.sdb"
+>%WINDIR%\System32\sdbinst.exe -u -q "fix.sdb"
 
 It should also be possible to uninstall them using **Programs and functions** in your Windows Control Panel.
