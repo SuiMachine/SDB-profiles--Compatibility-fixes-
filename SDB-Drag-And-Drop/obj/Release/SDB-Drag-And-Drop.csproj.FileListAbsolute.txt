@@ -1,0 +1,15 @@
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\bin\Release\SDB-Drag-And-Drop.exe.config
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\bin\Release\SDB-Drag-And-Drop.exe
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\bin\Release\SDB-Drag-And-Drop.pdb
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.csprojAssemblyReference.cache
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\MainWindow.g.cs
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\App.g.cs
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop_MarkupCompile.cache
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop_MarkupCompile.lref
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\MainWindow.baml
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.g.resources
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB_Drag_And_Drop.Properties.Resources.resources
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.csproj.GenerateResource.cache
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.csproj.CoreCompileInputs.cache
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.exe
+D:\Projekty\SDB-profiles--Compatibility-fixes-\SDB-Drag-And-Drop\obj\Release\SDB-Drag-And-Drop.pdb

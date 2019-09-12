@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#Visual-Studio trash
+.vs/*
+
+
+#SDB-Drag-And-Drop build trash
+SDB-Drag-And-Drop/bin/Debug/*
+SDB-Drag-And-Drop/bin/Release/*
+SDB-Drag-And-Drop/bin/obj/*
