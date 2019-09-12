@@ -21,21 +21,31 @@ namespace SDB_Drag_And_Drop
     /// </summary>
     public partial class MainWindow : Window
     {
+        string sdbFile = "";
+
         public MainWindow()
         {
+
             InitializeComponent();
             if (App.Args == null || App.Args.Length == 0)
             {
-                MessageBox.Show("You need to drag and drop an SDB file onto exe to use it.", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
-                Environment.Exit(0);
+                string[] files = System.IO.Directory.GetFiles(System.IO.Directory.GetCurrentDirectory());
+                sdbFile = files.FirstOrDefault(x => x.ToLower().EndsWith(".sdb"));
+                if(sdbFile == null)
+                {
+                    MessageBox.Show("You need to drag and drop an SDB file onto exe to use it or have it in directory with exe!", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
+                    Environment.Exit(0);
+                }
             }
+            else
+                sdbFile = string.Join(" ", App.Args);
         }
 
         private void B_Install_Click(object sender, RoutedEventArgs e)
         {
             Process proc = new Process();
             proc.StartInfo.FileName = System.IO.Path.Combine(Environment.GetEnvironmentVariable("SystemRoot"), "system32", "sdbinst.exe");
-            proc.StartInfo.Arguments = "-q \"" + App.Args[0] + "\"";
+            proc.StartInfo.Arguments = "-q \"" + sdbFile + "\"";
             proc.StartInfo.RedirectStandardOutput = true;
             string output = "";
             proc.OutputDataReceived += (send, arg) =>
@@ -55,7 +65,7 @@ namespace SDB_Drag_And_Drop
         {
             Process proc = new Process();
             proc.StartInfo.FileName = System.IO.Path.Combine(Environment.GetEnvironmentVariable("SystemRoot"), "system32", "sdbinst.exe");
-            proc.StartInfo.Arguments = "-q -u \"" + App.Args[0] + "\"";
+            proc.StartInfo.Arguments = "-q -u \"" + sdbFile + "\"";
             proc.StartInfo.RedirectStandardOutput = true;
             string output = "";
             proc.OutputDataReceived += (send, arg) =>
