@@ -53,4 +53,4 @@ Temporary Items
 #SDB-Drag-And-Drop build trash
 SDB-Drag-And-Drop/bin/Debug/*
 SDB-Drag-And-Drop/bin/Release/*
-SDB-Drag-And-Drop/bin/obj/*
+SDB-Drag-And-Drop/obj/*
